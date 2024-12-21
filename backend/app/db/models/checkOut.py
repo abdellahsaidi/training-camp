@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, Date, Time, ForeignKey
 from sqlalchemy.orm import relationship
-from app.database import Base
+from app.session import Base
 
 class CheckOut(Base):
     __tablename__ = "check_outs"

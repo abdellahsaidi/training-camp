@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, Text, Date, String, ForeignKey
 from sqlalchemy.orm import relationship
-from app.database import Base
+from app.session import Base
 
 class LeaveRequest(Base):
     __tablename__ = "leave_requests"
