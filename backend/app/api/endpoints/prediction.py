@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi import APIRouter, Depends
 from pydantic import BaseModel
 import pickle
 import numpy as np
@@ -20,7 +21,8 @@ except FileNotFoundError:
 class SampleData(BaseModel):
     features: list[float]  # List of features for a single employee
 
-@app.post("/predict")
+router = APIRouter()
+@router.post("/predict")
 async def predict(sample_data: SampleData):
     """
     Endpoint to predict employee absence or presence.
