@@ -8,6 +8,7 @@ from app.api.endpoints.taskAssignment import router as task_assignment_router
 from app.api.endpoints.auth import router as auth_router
 from app.api.endpoints.abscence import router as abscence_router
 from app.api.endpoints.attendance import router as attendance_router
+from app.api.endpoints.prediction import router as prediction_router
 from sqlalchemy.orm import Session
 from app.session import init_db, get_db
 from contextlib import asynccontextmanager
@@ -34,3 +35,4 @@ app.include_router(task_assignment_router, prefix="/task-assignments", tags=["Ta
 app.include_router(auth_router, prefix="/auth", tags=["Authentication"])
 app.include_router(abscence_router, prefix="/abscence", tags=["Abscence"])
 app.include_router(attendance_router, prefix="/attendance", tags=["attendance"])
+app.include_router(prediction_router, prefix="/prediction", tags=["prediction"])
