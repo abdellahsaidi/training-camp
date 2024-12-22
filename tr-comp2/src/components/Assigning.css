@@ -1,0 +1,99 @@
+/* FormContainer Styles */
+.form-container {
+  font-family: Arial, sans-serif;
+  background-color: #f9e8f0;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.task-form,
+.employee-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.task-form h2,
+.employee-form h2 {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+label input,
+label select,
+label textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+label textarea {
+  resize: none;
+  height: 80px;
+}
+
+.action-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.action-button button {
+  padding: 10px 20px;
+  background-color: #7b5bfc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.action-button button:hover {
+  background-color: #6748c6;
+}

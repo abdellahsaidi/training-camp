@@ -1,0 +1,64 @@
+.smallhead {
+  color: black;
+}
+.headstat-box a {
+  color: black;
+}
+p {
+  color: black;
+}
+.headdashboard-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  height: 90vh;
+  background-color: transparent;
+}
+
+.headheader {
+  grid-column: 1 / -1;
+  background: transparent;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.headstats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  height: 150px;
+}
+
+.headstat-box {
+  background: #e0e0e0;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.headstats p {
+  font-size: 10px;
+  color: lightslategray;
+}
+.headuser-profile {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+}
+
+.headuser-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}

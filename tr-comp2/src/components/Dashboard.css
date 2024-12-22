@@ -1,0 +1,73 @@
+.dashboard-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  height: 90vh;
+  background-color: transparent;
+}
+
+.dahsheader {
+  grid-column: 1 / -1;
+  background: transparent;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.dahsstats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  height: 150px;
+}
+
+.dahsstat-box {
+  background: #e0e0e0;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.dahsstats p {
+  font-size: 10px;
+  color: lightslategray;
+}
+
+.dahsmain-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+
+.dahsproduction-overview {
+  grid-column: 1 / -1;
+  background: #e0f7fa;
+  padding: 1rem;
+  border-radius: 5px;
+  height: 300px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+.dahsimportant-tasks {
+  background: #fce4ec;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.dahsoverview {
+  grid-column: 1 / -1;
+  background: #e8f5e9;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.dahsunder {
+  display: flex;
+  justify-content: space-between;
+}

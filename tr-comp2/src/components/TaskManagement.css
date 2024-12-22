@@ -1,0 +1,147 @@
+.task-management-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.user {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.separator {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.controls {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  flex: 2;
+  text-align: left;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.filter-icon,
+.export-icon {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #d9d9d9b0;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.task-table th,
+.task-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+  background: #f4f4f4;
+}
+
+.task-table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.Done {
+  background: #d1ffe0;
+  color: #25c059;
+}
+
+.inprogress {
+  background: #ffe3cc;
+  color: #ff8e29;
+}
+
+.notdone {
+  background: #ffd1d5;
+  color: #dc3545;
+}
+
+select {
+  height: 30px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+}
+
+.filter-container {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-dropdown {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 10;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-dropdown button {
+  padding: 10px;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+}
+
+.filter-dropdown button:hover {
+  background-color: #f0f0f0;
+}

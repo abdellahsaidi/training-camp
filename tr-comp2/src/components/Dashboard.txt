@@ -1,0 +1,67 @@
+import React from "react";
+import "./Dashboard.css";
+
+const Header = () => {
+  return (
+    // <div class="grid-container">
+    //   <div class="grid-item header">Welcome back, User</div>
+    //   <div class="grid-item">Working Days</div>
+    //   <div class="grid-item">Tasks Completed This Month</div>
+    //   <div class="grid-item">Absence Days</div>
+    //   <div class="grid-item">Justified Absence Days</div>
+    //   <div class="grid-item production-overview">Production Overview</div>
+    //   <div class="grid-item">To Do List</div>
+    //   <div class="grid-item overview">Overview</div>
+    // </div>
+    <div>
+      <h1>Welcome back ! User</h1>
+      <p>
+        Empower Your Work, Enhance Productivity: Real-Time Insights for Smarter
+        Performance Management
+      </p>
+      <div className="first-container">
+        <div>
+          <div>
+            <p>Working Days</p>
+            <a href="">
+              <BsThreeDots />
+            </a>
+          </div>
+          <h3>
+            257/<h4>365</h4>
+          </h3>
+        </div>
+        <div>
+          <div>
+            <p>Tasks Completed This Mounth</p>
+          </div>
+          <h3>
+            50/<h4>100</h4>
+          </h3>
+        </div>
+        <div>
+          <div>
+            <p>Absence Days</p>
+            <a href="">
+              <BsThreeDots />
+            </a>
+          </div>
+          <h3>17</h3>
+        </div>
+        <div>
+          <div>
+            <p>Justified Absence Days</p>
+            <a href="">
+              <BsThreeDots />
+            </a>
+          </div>
+          <h3>
+            10/<h4>17</h4>
+          </h3>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Header;

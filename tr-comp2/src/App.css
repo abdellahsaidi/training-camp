@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+/* 
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto;
+  gap: 20px;
+  margin-left: 200px;
+}
+
+.headerframe {
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.production-overview {
+  margin-bottom: 20px;
+}
+
+.tasks-container {
+  align-self: flex-end;
+  width: 300px;
+}
+.frame-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+} */
+
+* {
+  font-family: Urbanist;
+}
+body {
+  background-color: #fbf0f0;
+}
+
+.headerframe {
+  height: 100px;
+  width: 200px;
+  background-color: aqua;
+  margin-left: 200px;
+  margin-top: 20px;
+}

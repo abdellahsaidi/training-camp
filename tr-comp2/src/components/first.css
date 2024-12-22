@@ -1,0 +1,36 @@
+.intro {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding: 20px;
+    margin-left: 290px;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 220px;
+  }
+  
+  .text-content {
+    max-width: 700px;
+    margin-bottom: -60px;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  p {
+    margin: 5px 0 0;
+    line-height: 1.5;
+  }
+  
+.user{
+    margin-left: 50px;
+
+}
+
+h4{
+    margin-top: 40px;
+}

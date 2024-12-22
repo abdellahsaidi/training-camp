@@ -1,0 +1,13 @@
+.statapp-container {
+  margin-left: 300px;
+}
+.statmain-content {
+  margin-bottom: 50px;
+}
+.statframe-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
