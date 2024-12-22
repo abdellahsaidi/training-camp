@@ -1,0 +1,67 @@
+.gr-production-overview {
+  background-color: #f4f8fc;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gr-production-overview h4 {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.gr-production-overview h6 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+  color: black;
+  font-family: sans-serif;
+}
+
+/* .production-overview h6 span {
+  font-size: 1rem;
+  font-size: 10px;
+  color: #14ca74;
+  background-color: #05c16833;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0;
+} */
+
+.gr-production-overview p {
+  color: #666;
+  margin: 5px 0;
+}
+
+.gr-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Adjust if needed */
+  gap: 20px; /* Adds spacing between columns */
+}
+
+.gr-foot div {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.gr-foot h5 {
+  color: blue;
+  margin-bottom: 5px; /* Spacing below headings */
+}
+
+.gr-foot p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.gr-vl {
+  border-right: 2px solid #666;
+  height: 70px;
+}

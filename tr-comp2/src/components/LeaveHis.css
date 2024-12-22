@@ -1,0 +1,55 @@
+.history-of-leaves {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f5f5;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hol-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hol-table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+}
+
+.hol-row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.hol-row:last-child {
+  border-bottom: none;
+}
+
+.hol-header {
+  background-color: #f0eded;
+  font-weight: bold;
+}
+
+.hol-cell {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+}
+
+.status-approved {
+  color: white;
+  background-color: #28a745;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.status-refused {
+  color: white;
+  background-color: #dc3545;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+}

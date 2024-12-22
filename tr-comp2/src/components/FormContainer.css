@@ -1,0 +1,123 @@
+body {
+  background-color: #fbf0f0;
+  font-family: Arial, sans-serif;
+}
+
+.form-container1 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  background-color: transparent;
+  padding: 30px;
+  padding-top: 0px;
+  border-radius: 8px;
+  width: 90%;
+  margin-left: 300px;
+  margin-top: -50px;
+}
+.h2-form1 {
+  text-align: left;
+  color: #333;
+  margin-top: 10px;
+  margin-left: -30px;
+  margin-bottom: 30px;
+  font-family: Urbanist;
+}
+.form-section1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+
+  padding: 20px;
+}
+
+.first-sec1,
+.scd-sec1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 45%;
+  padding: 10px;
+  border: 2px dashed #d5bdf6;
+}
+
+label {
+  font-size: 14px;
+  color: #333;
+  font-family: Urbanist;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  color: black;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  border-color: #7a5cfa;
+}
+
+input:focus {
+  outline: none;
+  color: #333;
+}
+
+.photo-upload1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #d5bdf6;
+  border-radius: 4px;
+  height: 150px;
+  text-align: center;
+  color: #7a5cfa;
+  cursor: pointer;
+}
+
+.photo-upload1 img {
+  width: 50px;
+  height: 20px;
+}
+
+button.create-account-button {
+  background-color: #7a5cfa;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button.create-account-button:hover {
+  background-color: blueviolet;
+  transform: scale(1.01);
+}
+
+button {
+  align-self: center;
+}
+textarea {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px dashed #d5bdf6;
+  color: #333;
+  font-family: Urbanist, sans-serif;
+  resize: none; /* Prevent resizing for a consistent layout */
+  height: 200px; /* Ensure sufficient height */
+}
+
+textarea:focus {
+  border-color: #7a5cfa;
+  outline: none;
+}

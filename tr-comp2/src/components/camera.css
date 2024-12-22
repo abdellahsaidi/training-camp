@@ -1,0 +1,70 @@
+.camera-card {
+    width: 650px; /* Card width */
+    height: 400px; /* Card height */
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ddd; /* Border around the card */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: space-between; /* Distribute space evenly */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    margin-left: 500px;
+    margin-top: 80px;
+  }
+  
+  h1 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .select-container {
+    display: flex;
+    flex-direction: column; /* Stack selects vertically */
+    width: 30%; /* Take full width of the card */
+    align-items: flex-start; /* Align selects to the right */
+    gap: 10px; /* Space between selects */
+    margin-right: 350px;
+  }
+  
+  select {
+    width: 70%; /* Set width of select dropdowns */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .action-button {
+    width: 15%;
+    width: 120px;
+    padding: 10px 0;
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 400px;
+    margin-top: 40px;
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3; /* Darker button on hover */
+  }
+.define{
+    font-size: 19px;
+    min-width: 280px;
+}
+
+.camera-card img {
+    width: 300px; /* Image width */
+    height: 500px; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners for the image */
+margin-left: 300px;
+margin-top: -290px;
+display: flex;
+justify-content: center;
+}
